@@ -52,7 +52,7 @@ if [ "$1" = "install" ]; then
 else
   while true; do
   bot_config
-  ./tg -s ./data/bot/bot.lua -l 1 -E -c ./data/bot/bot.config -p default "$@"
+  ./data/bot/bot.lua -l 1 -E -c ./data/bot/bot.config -p default "$@"
    sleep 3
   done
 fi
