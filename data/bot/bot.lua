@@ -9,7 +9,7 @@ URL = require('socket.url')
 clr = require 'term.colors'
 db = redis.connect('127.0.0.1', 6379)
  sudo_users = {
-[111334847] = 'ToOfan',
+[362270285] = 'MohamadMousavi',
 
 }
 
